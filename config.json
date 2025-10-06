@@ -5,13 +5,13 @@
     "author": "",
     "description": "A sample plugin. Prompt for note on remote desktop disconnect.",
     "hasAdminPanel": false,
-    "homepage": "",
-    "changelogUrl": "",
+    "homepage": "https://github.com/freaky-hue/plugin",
+    "changelogUrl": "https://github.com/freaky-hue/plugin/blob/main/changelog.md",
     "configUrl": "https://github.com/freaky-hue/plugin/blob/main/config.json",
     "downloadUrl": "",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/freaky-hue/plugin.git"
     },
     "versionHistoryUrl": "",
     "meshCentralCompat": ">=0.4.4-s"
