@@ -17,9 +17,7 @@ module.exports.dragFiles = function (parent) {
     obj.gpD = function () {
         const devicesGroups = parent.ListDeviceGroups();
 
-        devicesGroups.forEach(element => {
-            
-        });
+        console.log(devicesGroups);
     }
 
     return obj
