@@ -1,0 +1,18 @@
+{
+    "name": "Sample Plugin",
+    "shortName": "sample",
+    "version": "0.0.0",
+    "author": "",
+    "description": "A sample plugin. Prompt for note on remote desktop disconnect.",
+    "hasAdminPanel": false,
+    "homepage": "",
+    "changelogUrl": "",
+    "configUrl": "",
+    "downloadUrl": "",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "versionHistoryUrl": "",
+    "meshCentralCompat": ">=0.4.4-s"
+}
