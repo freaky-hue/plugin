@@ -8,7 +8,7 @@
     "homepage": "https://github.com/freaky-hue/plugin",
     "changelogUrl": "https://github.com/freaky-hue/plugin/blob/main/changelog.md",
     "configUrl": "https://github.com/freaky-hue/plugin/blob/main/config.json",
-    "downloadUrl": "",
+    "downloadUrl": "https://github.com/freaky-hue/plugin",
     "repository": {
         "type": "git",
         "url": "https://github.com/freaky-hue/plugin.git"
