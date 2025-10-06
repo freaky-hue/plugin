@@ -2,7 +2,7 @@
     "name": "Sample Plugin",
     "shortName": "dragFiles",
     "version": "0.0.0",
-    "author": "",
+    "author": "G S",
     "description": "A sample plugin. Prompt for note on remote desktop disconnect.",
     "hasAdminPanel": false,
     "homepage": "https://github.com/freaky-hue/plugin",

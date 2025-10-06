@@ -18,7 +18,9 @@ module.exports.dragFiles = function (parent) {
         const devicesGroups = parent.ListDeviceGroups();
 
         console.log(devicesGroups);
+        
     }
+
 
     return obj
 
