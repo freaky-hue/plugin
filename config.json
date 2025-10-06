@@ -7,7 +7,7 @@
     "hasAdminPanel": false,
     "homepage": "",
     "changelogUrl": "",
-    "configUrl": "",
+    "configUrl": "https://github.com/freaky-hue/plugin/blob/main/config.json",
     "downloadUrl": "",
     "repository": {
         "type": "git",
