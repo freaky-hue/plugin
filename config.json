@@ -6,9 +6,9 @@
     "description": "A sample plugin. Prompt for note on remote desktop disconnect.",
     "hasAdminPanel": false,
     "homepage": "https://github.com/freaky-hue/plugin",
-    "changelogUrl": "https://raw.githubusercontent.com/freaky-hue/plugin/refs/heads/main/changelog.md",
+    "changelogUrl": "",
     "configUrl": "https://raw.githubusercontent.com/freaky-hue/plugin/refs/heads/main/config.json",
-    "downloadUrl": "https://github.com/freaky-hue/plugin/archive/refs/tags/app.zip",
+    "downloadUrl": "https://github.com/freaky-hue/plugin/archive/refs/tags/master.zip",
     "repository": {
         "type": "git",
         "url": "https://github.com/freaky-hue/plugin.git"
