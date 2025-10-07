@@ -1,14 +1,14 @@
 {
-    "name": "Sample Plugin",
+    "name": "dragFiles",
     "shortName": "dragFiles",
     "version": "0.0.0",
-    "author": "G S",
+    "author": "",
     "description": "A sample plugin. Prompt for note on remote desktop disconnect.",
     "hasAdminPanel": false,
     "homepage": "https://github.com/freaky-hue/plugin",
-    "changelogUrl": "",
+    "changelogUrl": "https://raw.githubusercontent.com/freaky-hue/plugin/refs/heads/main/changelog.md",
     "configUrl": "https://raw.githubusercontent.com/freaky-hue/plugin/refs/heads/main/config.json",
-    "downloadUrl": "https://github.com/freaky-hue/plugin/archive/refs/tags/master.zip",
+    "downloadUrl": "https://github.com/freaky-hue/plugin/archive/refs/tags/app.zip",
     "repository": {
         "type": "git",
         "url": "https://github.com/freaky-hue/plugin.git"
