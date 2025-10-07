@@ -8,18 +8,8 @@ module.exports.dragFiles = function (parent) {
 
 
     obj.server_startup = function () {
-        obj.meshServer.pluginHandler.scripttask_db = require(__dirname + '/db.js').CreateDB(obj.meshServer);
-        obj.db = obj.meshServer.pluginHandler.scripttask_db;
-        obj.resetQueueTimer();
+        console.log("Teste ")
     };
-
-
-    obj.gpD = function () {
-        const devicesGroups = parent.ListDeviceGroups();
-
-        console.log(devicesGroups);
-        
-    }
 
 
     return obj
