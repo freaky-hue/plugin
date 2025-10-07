@@ -8,7 +8,7 @@ module.exports.dragFiles = function (parent) {
 
 
     obj.server_startup = function () {
-        console.log("Teste ")
+        console.log("Teste")
     };
 
 
