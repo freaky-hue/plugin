@@ -1,6 +1,7 @@
+
+// console.log("plugin loaded")
 module.exports.dragFiles = function (parent) {
     const obj = {};
-
     obj.parent = parent;
     obj.meshServer = parent.parent;
 
@@ -8,31 +9,57 @@ module.exports.dragFiles = function (parent) {
 
     obj.getAll = function () {
         obj.meshServer.db.GetAll((err, infos) => {
-            //console.log(infos);
             infos.forEach(element => {
-                if (JSON.parse(JSON.stringify(element))["name"] === undefined) {
-                    return;
-
-                } else {
-
-                    // console.log("Nome:\n", JSON.parse(JSON.stringify(element))["name"]);
-
-                         console.log(`\nID:${(JSON.parse(JSON.stringify(element))["_id"]).split("//")[1]} + NOME:${JSON.parse(JSON.stringify(element))["name"]}`);
-
+                if (element.name) {
+                    id = element._id;
+                    console.log("Name:" + element.name + "  Id:" + id);
                 }
             });
         })
     }
 
 
-    obj.server_startup = function () {
-            //    console.log(Object.keys(obj.meshServer.db))
-            //    console.log(obj.meshServer.filespath);
-            
-        obj.getAll();
+    obj.getAgents = function () {
+        obj.meshServer.db.GetAll((err, infos) => {
+            infos.forEach(element => {
+
+                if (element.type && element.type == "node") {
+                    console.log(element.name + "   " + element._id)
+                }
+
+            });
+        })
+
+    }
+
+
+
+
+    obj.hook_agentCoreIsStable = function (agentObj, gp) {
+
+
+        const ws = obj.meshServer.webserver.wsagents[agentObj.dbNodeKey];
+
+        console.log(ws);
+
+        // setTimeout(() => {
+        //     ws.send({
+        //         action: 'msg',
+        //         nodeid: agentObj.dbNodeKey,
+        //         value: "aaaaaaa"
+        //     })
+        // }, 5000)
 
     };
 
+
+
+    obj.server_startup = function () {
+        // obj.getAll();
+
+    }
     return obj;
 
 }
+
+
